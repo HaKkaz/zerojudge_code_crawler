@@ -1,6 +1,6 @@
 # Zerojudge Code Crawler
 > HaKkaz Lin, 2022/11/10
-> 從高中就一直想把自己 Zerojudge 的 AC code 抓下來，加上有在接家教，每次都要找很麻煩，所以乾脆用爬蟲抓下來。
+> 從高中就一直想把自己 zerojudge 的 code 爬下來，加上有在接家教，每次都要找很麻煩，所以乾脆把它爬一爬。
 ## 工具介紹
 此工具可以幫助你把自己的 Zerojudge 程式碼抓下來，是個心血來潮開發的小工具，有任何問題都可以聯絡我＞＜''。
 
@@ -16,7 +16,7 @@
 
 ### 繞過 Capche
 因為 Zerojudge 登入要 Capche 驗證，所以乾脆直接登入好再讓爬蟲去爬。
-使用以下指令，先在指定的 port 打開 chrome 瀏覽器。
+使用以下指令，先在指定的 port 打開 chrome 瀏覽器，然後請使用**該指令開啟的瀏覽器**登入 Zerojudge 帳號。
 ```
 ./chrome.exe --remote-debugging-port=9222 --user-data-dir="C:\selenum\ChromeProfile"
 ```
